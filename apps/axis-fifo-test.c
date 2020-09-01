@@ -29,7 +29,7 @@ pass in the number of words to write and the driver device file location(s)
 #define TIMEOUT 4
 
 // number of bytes to send in a packet (max is fifo depth * 4)
-#define MAX_PACKET_SIZE 8196
+#define MAX_PACKET_SIZE 4096
 #define POLL_PACKET_SIZE 1024
 
 int main(int argc, char *argv[])
